@@ -30,12 +30,27 @@
         "ghcr.io/devcontainers/features/node:1": {
             "version": "14"
         },
+        "ghcr.io/devcontainers/features/azure-cli:1": {
+			"version": "latest"
+		},
         "ghcr.io/devcontainers/features/powershell:1": {
             "version": "7.2.6"
         },
         "ghcr.io/devcontainers/features/github-cli:1": {
             "version": "2.17.0"
+        },
+        "ghcr.io/rchaganti/vsc-devcontainer-features/azurebicep:1": {
+                "version": "latest"
+        },
+        "ghcr.io/devcontainers/features/dotnet:1": {
+            "version": "latest"
         }
+        // Uncomment here when Azure Functions Tools will be available for aarch64 on Linux, and 
+        // remove instructions in DockerFile.
+        // ,
+        // "ghcr.io/jlaundry/devcontainer-features/azure-functions-core-tools:1": {
+        //     "version": "latest"
+        // }
     },
     // Add the IDs of extensions you want installed when the container is created.
     "extensions": [
